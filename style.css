@@ -3,7 +3,7 @@ html {
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  background: url(header.jpg) no-repeat center center fixed; 
+  background: url(server-room.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,30 +16,34 @@ h1 {
 }
 
 hr {
-	border-color: #f05f44;
+	border-color: #03fcec;
 	border-width: 3px;
 	max-width: 65px;
 }
 
 .buffer {
-	height: 10rem;
+	height: 1.5rem;
 }
 
 .btn {
 	font-weight: 700;
+	color: black;
 	border-radius: 300px;
 	text-transform: uppercase;
 }
 
 .btn-primary {
-	background-color: #f05f44;
-	border-color: #f05f44;
+	background-color: #03fcec;
+	border-color: #03fcec;
+	transition-property: all;
+	transition-duration: 0.5s;
 }
 
 .btn-primary:hover {
-	background-color: #ee4b08;
-	border-color: #ee4b08;
+	background-color: #03fcd3;
+	border-color: #03fcd3;
 	border-width: 4px;
+	transform: scale(1.1);
 }
 
 .btn-xl {
